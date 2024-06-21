@@ -1,0 +1,138 @@
+header {
+    background: transparent;
+    z-index: 10;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.about-banner {
+    padding-top: 150px;
+}
+
+.faqs-section {
+    position: relative;
+}
+
+.house-background img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: -450px;
+    left: 0;
+    z-index: -10;
+}
+
+.about-banner h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 49.4px;
+    text-align: left;
+    color: #585858;
+}
+
+.cloud-image img {
+    position: absolute;
+    top: -257px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.cloud-image {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.about-title h4 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #585858;
+    padding-bottom: 15px;
+}
+
+
+.about-title li {
+    list-style-type: decimal;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #585858;
+    padding-bottom: 20px;
+}
+
+.about-image {
+    padding-top: 45px;
+    position: relative;
+}
+
+.rectangle img {
+    position: absolute;
+    top: -50px;
+    left: -80px;
+    z-index: -1;
+    max-width: 380px;
+}
+
+.about-cat-hand img {
+    width: 78px;
+    height: 75px;
+    position: absolute;
+    top: 18px;
+    left: -90px;
+}
+
+.about-title {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.cat img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.cat {
+    position: relative;
+}
+
+.about-hand img {
+    max-width: 78px;
+    height: 70px;
+    position: absolute;
+}
+
+.refunds li {
+    list-style-type: disc;
+}
+
+.refunds ul{
+    padding-left: 55px;
+}
+
+.refunds{
+    position: relative;
+}
+
+.big-rectangle img{
+    position: absolute;
+    top: -65px;
+    right: -80px;
+    z-index: -1;
+}
+
+.faqs-section{
+    color: #585858;
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumiao</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.8/dist/css/splide.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/merchadise.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid py-lg-2 px-4">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/logo.png" alt="Yumiao">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="yumiao-cat-crew.html">The Cat Crew</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gift-card.html">Gift Card</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merchadise.html">Merchandise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="nav-button d-flex">
+                        <div class="book">
+                            <a href="book-detail.html" class="btn-primary" type="submit">
+                                Book a Session
+                            </a>
+                        </div>
+                        <ul class="navbar-nav icon">
+                            <li class="nav-item">
+                                <a class="nav-icon" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="37" viewBox="0 0 31 37"
+                                        fill="none">
+                                        <path
+                                            d="M24.8168 36.4999C25.2179 36.4145 25.6258 36.3529 26.0191 36.2402C28.5377 35.5171 30.1288 33.5392 30.2403 30.8462C30.3553 28.0642 30.0554 25.3219 29.0173 22.7169C28.3475 21.0349 27.3743 19.5801 25.7434 18.6915C24.7373 18.1437 23.6587 17.8822 22.5299 17.906C22.1738 17.9139 21.7996 18.0971 21.4746 18.2767C20.9508 18.5664 20.4659 18.9275 19.9577 19.2472C17.0027 21.1062 14.0459 21.1045 11.0935 19.2401C10.6838 18.9812 10.2646 18.7311 9.87998 18.437C9.17298 17.8971 8.39597 17.8302 7.55587 17.9553C5.2646 18.2987 3.64577 19.5774 2.55416 21.6179C1.58009 23.4391 1.14102 25.4179 0.946554 27.4566C0.846294 28.5037 0.798758 29.5604 0.811722 30.6119C0.848888 33.7523 2.9647 36.0896 6.03038 36.4339C6.10644 36.4427 6.1799 36.4771 6.2551 36.4999H24.8168Z"
+                                            fill="#7F91AD" />
+                                        <path
+                                            d="M7.23659 9.16293C7.22103 13.9404 11.0024 17.8021 15.7353 17.8426C20.4042 17.8831 24.2374 13.995 24.2607 9.19464C24.2858 4.39334 20.4725 0.498239 15.75 0.500001C11.0395 0.501762 7.25215 4.35548 7.23745 9.16293H7.23659Z"
+                                            fill="#7F91AD" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-icon" href="#">
+                                    <svg width="28" height="37" viewBox="0 0 30 37" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M22.6634 36.5H6.66343C3.14311 36.5 0.263428 33.6203 0.263428 30.1V12.5C0.263428 11.6203 0.983748 10.9 1.86343 10.9H8.26343V6.9C8.26343 3.37968 11.1431 0.5 14.6634 0.5C18.1837 0.5 21.0634 3.37968 21.0634 6.9V10.9H27.4634C28.3431 10.9 29.0634 11.6203 29.0634 12.5V30.1C29.0634 33.6203 26.1837 36.5 22.6634 36.5ZM11.4634 10.9H17.8634V6.9C17.8634 5.14064 16.4228 3.7 14.6634 3.7C12.9041 3.7 11.4634 5.14064 11.4634 6.9V10.9Z"
+                                            fill="#7F91AD" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="alumini-title">
+        <div class="container">
+            <div class="yumiao-group">
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-md-5">
+                        <div class="yumiao-title">
+                            <div class="yumiao-cat-top">
+                                <img src="image/paw-top.png" alt="">
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <div class="yumiao-cat-hand">
+                                <img src="image/paw.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="yumiao-images">
+                            <h2>Merchadise</h2>
+                            <div class="yumiao-rectangle">
+                                <img src="image/adoption-rectangle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="book-session-group">
+        <div class="session-background">
+            <img src="image/alumini-bg.svg" alt="">
+        </div>
+        <div class="box-group text-center">
+            <div class="row justify-content-lg-around justify-content-center">
+                <div class="box col-lg-4 d-flex flex-column align-items-center">
+                    <img src="image/merchadise-cat.png" alt="">
+                    <h4>Cat graphic pin</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h5>$12</h5>
+                    <div class="book-now">
+                        <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">
+                            Book now
+                        </button>
+                    </div>
+                </div>
+                <div class="box col-lg-4 d-flex flex-column align-items-center">
+                    <img src="image/merchadise-cat.png" alt="">
+                    <h4>Cat graphic pin</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h5>$12</h5>
+                    <div class="book-now">
+                        <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">
+                            Book now
+                        </button>
+                    </div>
+                </div>
+                <div class="box col-lg-4 d-flex flex-column align-items-center">
+                    <img src="image/merchadise-cat.png" alt="">
+                    <h4>Cat graphic pin</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h5>$12</h5>
+                    <div class="book-now">
+                        <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">
+                            Book now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-group text-center">
+            <div class="row justify-content-lg-around justify-content-center">
+                <div class="box col-lg-4 d-flex flex-column align-items-center">
+                    <img src="image/merchadise-cat.png" alt="">
+                    <h4>Cat graphic pin</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h5>$12</h5>
+                    <div class="book-now">
+                        <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">
+                            Book now
+                        </button>
+                    </div>
+                </div>
+                <div class="box col-lg-4 d-flex flex-column align-items-center">
+                    <img src="image/merchadise-cat.png" alt="">
+                    <h4>Cat graphic pin</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h5>$12</h5>
+                    <div class="book-now">
+                        <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">
+                            Book now
+                        </button>
+                    </div>
+                </div>
+                <div class="box col-lg-4 d-flex flex-column align-items-center">
+                    <img src="image/merchadise-cat.png" alt="">
+                    <h4>Cat graphic pin</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <h5>$12</h5>
+                    <div class="book-now">
+                        <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">
+                            Book now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <section class="gift-card">
+                        <div class="container">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6">
+                                    <div class="egift">
+                                        <img src="image/by-cat.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <h3>Cat graphic pin</h3>
+                                    <div class="gift-card-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="amount">
+                                        <h3>$25</h3>
+                                    </div>
+                                    <div class="amount quantity">
+                                        <p>quantity</p>
+                                        <div class="button-q d-flex align-items-center">
+                                            <button type="button" class="btn" id="decreaseQuantity">-</button>
+                                            <span id="quantity" class="mx-3">1</span>
+                                            <button type="button" class="btn" id="increaseQuantity">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="download">
+                                        <button type="submit" class="btn btn-secondary btn-block">Add to cart</button>
+                                    </div>
+                                    <div class="amount">
+                                        <a href="merchadise-details.html">View full details >></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-start">
+            <div class="row d-flex justify-content-between g-md-5 gx-sm-5">
+                <div class="col-xl-4 col-md-5  footer-logo">
+                    <div class="footer-logo">
+                        <img src="image/logo.png" alt="">
+                    </div>
+                    <div class="book-session">
+                        <a href="book-detail.html" type="submit" class="btn btn-primary btn-block">Book a Session</a>
+                    </div>
+                    <div class="footer-list d-flex justify-content-between">
+                        <div class="footer-nav">
+                            <ul class="list">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="yumiao-cat-crew.html">Yumiao Cat Crew</a></li>
+                                <li><a href="cat-visitor.html">Cat Vistors</a></li>
+                                <li><a href="adoption.html">Adoption</a></li>
+                                <li><a href="alumini.html">Alumini</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-nav">
+                            <ul class="list">
+                                <li><a href="gift-card.html">Gift Card</a></li>
+                                <li><a href="merchadise.html">Merchadise</a></li>
+                                <li><a href="drink-menu.html">Drink Menu</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-nav">
+                            <ul class="list">
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="footer-detial">
+                                <div class="list">
+                                    <ul>
+                                        <li>
+                                            <p><b>yumiao.catcafe@gmail.com</b></p>
+                                            <p><b>+61 02 4623 8756</b></p>
+                                            <p>Shop 1 & 2, (next to Kennards Self Storage Waterloo)
+                                                18 O'Dea Ave, Waterloo, NSW 2017
+                                                (Wheelchair friendly)</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <ul>
+                                        <li>
+                                            <p><b>Opening Hours:</b></p>
+                                            <p>Last entry 1hr before close.</p>
+                                            <p>Regular Hours:</p>
+                                            <ul>
+                                                <li>Mon 10 am - 7 pm</li>
+                                                <li>Tue - Fri 10 am - 5 pm</li>
+                                                <li>Sat - Sun 9 am - 7 pm</li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list">
+                                    <ul>
+                                        <li>
+                                            <p><b>School Holidays:</b></p>
+                                            <p>Everyday 9 am - 7 pm</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="google-map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.468687230043!2d151.20646327501692!3d-33.90333502084723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b17e988590cb%3A0xa3783daf31d2bb0f!2sYUMIAO%20cat%20cafe!5e0!3m2!1sen!2snp!4v1718171841187!5m2!1sen!2snp"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="mail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="text" placeholder="subject">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" rows="4"
+                                        placeholder="message"></textarea>
+                                </div>
+                                <div class="submit">
+                                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom d-flex align-items-center">
+        <div class="container">
+            <div class="bottom-text d-flex align-items-center">
+                <a href="faqs.html" class="faq">FAQ</a>
+                <div class="line"></div>
+                <a href="house-rule.html" class="house-rules">House-Rules</a>
+                <div class="line"></div>
+                <a href="#" class="term">Terms and Condition</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+<script src="js/script.js"></script>
+
+</html>

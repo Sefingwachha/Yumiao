@@ -1,0 +1,262 @@
+.adoption {
+    padding-top: 60px;
+}
+
+
+.cloud-image img {
+    width: 100%;
+    position: absolute;
+    top: -257px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.cloud-image {
+    position: relative;
+}
+
+.yumiao-title p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #585858;
+    padding-left: 75px;
+}
+
+.yumiao-title {
+    position: relative;
+    padding-top: 45px;
+}
+
+.adoption-image h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 49.4px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.yumiao-cat-hand img {
+    position: absolute;
+    top: 4px;
+    left: -52px;
+}
+
+.yumiao-images h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 49.4px;
+    text-align: center;
+    color: #585858;
+    padding-right: 25px;
+}
+
+.yumiao-images {
+    position: relative;
+}
+
+.yumiao-rectangle {
+    position: absolute;
+    max-width: 382px;
+    top: 150px;
+    right: 180px;
+    height: auto;
+    z-index: -1;
+}
+
+.yumiao-cat img {
+    max-width: 200px;
+}
+
+.adopotion-list {
+    padding-top: 40px;
+    position: relative;
+}
+
+.adopotion-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.visitor-list {
+    padding-top: 130px;
+}
+
+.main-list>li {
+    display: flex;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: #585858;
+    position: relative;
+    width: calc(35% - 4px);
+    padding-bottom: 25px;
+}
+
+.adopotion-list li h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #585858;
+    padding-right: 25px;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.sub-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.adopotion-list .main-list>li::before {
+    content: " ";
+    display: inline-block;
+    background-image: url(/image/adoption-list-rectangle.png);
+    width: 189px;
+    height: 80px;
+    position: absolute;
+    top: -14px;
+    left: -65px;
+    z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.visitor-cat img {
+    position: absolute;
+    max-width: 644px;
+    max-height: 480px;
+    top: 50px;
+    left: -120px;
+}
+
+.truffle {
+    padding-top: 75px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.truffle-background img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.truffle-box {
+    max-width: 353px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 28px;
+    box-shadow: 3.5px 3.5px 17.51px 0px #0000001A;
+}
+
+.truffle-list ul {
+    list-style-type: none;
+}
+
+.truffle-img {
+    position: relative;
+}
+
+.truffle-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 28.63px;
+}
+
+.truffle-cat-logo {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+
+.main-list>li:nth-child(odd) {
+    margin-top: -40px;
+}
+
+.main-list>li:nth-child(even) {
+    margin-top: 60px;
+}
+
+.truffle-content {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    background-color: #FFC1AD;
+    color: #fff;
+    margin-top: -25px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+
+.list-text h5 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 21.85px;
+    text-align: left;
+    color: #585858;
+    padding-bottom: 10px;
+}
+
+
+.boarding-text{
+    padding-left: 105px;
+}
+
+.boarding-text h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    color: #585858;
+}
+
+.boarding-text p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: #585858;
+}
+
+.cat-boarding{
+    position: relative;
+    padding-bottom: 180px;
+}
+
+.cat-paw img{
+    position: absolute;
+}
+
+.mango img{
+    max-width: 635px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: -100px;
+}
+
+.visitor-image h2{
+    padding-left: 70px;
+}

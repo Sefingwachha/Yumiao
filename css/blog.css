@@ -1,0 +1,58 @@
+.blog {
+    padding: 55px 0;
+    color: #585858;
+}
+
+.blog h2 {
+    text-align: start;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.read-more .btn {
+    padding: 20px 118px;
+    margin-top: 35px;
+}
+
+.blog-mission {
+    color:#585858;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.blog-mission h4{
+    font-family: Helvetica Neue LT Pro;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.blog-mission-img{
+    padding-bottom: 25px;
+}
+
+.read .btn {
+    padding: 20px 70px;
+}
+
+.blog-content{
+    max-width: 309px;
+}
+
+.blog-mission{
+    position: relative;
+}
+
+.blog-bg img{
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}

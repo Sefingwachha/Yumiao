@@ -1,0 +1,203 @@
+.alumini-title {
+    color: #585858;
+    padding-top: 45px;
+}
+
+
+.yumiao-title h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #585858;
+    padding-left: 40px;
+}
+
+.yumiao-title p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.yumiao-title {
+    position: relative;
+    padding-top: 45px;
+}
+
+.yumiao-cat-hand img {
+    position: absolute;
+    top: 4px;
+    left: -52px;
+}
+
+.yumiao-images h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 49.4px;
+    text-align: center;
+    color: #585858;
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+.yumiao-images {
+    position: relative;
+}
+
+.yumiao-rectangle {
+    position: absolute;
+    max-width: 382px;
+    top: -15px;
+    right: -20px;
+    height: auto;
+    z-index: -1;
+}
+
+.yumiao-cat img {
+    max-width: 200px;
+}
+
+
+.yumiao-images {
+    position: relative;
+}
+
+
+.truffle-background img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.truffle-box {
+    max-width: 380px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 28px;
+    box-shadow: 3.5px 3.5px 17.51px 0px #0000001A;
+    margin-bottom: 30px;
+    margin-right:17px;
+    margin-left:17px;
+}
+
+.truffle-list ul {
+    list-style-type: none;
+}
+
+.truffle-img {
+    position: relative;
+}
+
+.truffle-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 28.63px;
+}
+
+.truffle-cat-logo {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+
+
+.truffle-content {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    background-color: #7F91AD;
+    color: #fff;
+    margin-top: -25px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+
+.pink {
+    background-color: #FFC1AD;
+}
+
+
+.alumini {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.alumini-background img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 105px;
+    left: 0;
+}
+
+.cat-crew-cloud img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+
+}
+
+.box-title{
+    margin-left:17px;
+}
+
+.box-title h4 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #585858;
+}
+
+.box-title p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: #585858;
+    padding-top: 35px;
+}
+
+.box-group{
+    position:relative;
+}
+
+.cat-crew-hand img{
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+}
+
+.cat-crew-white{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cat-crew img{
+    position: absolute;
+    bottom: 150px;
+    left: -55px;
+}
+
+.cat-crew2 img{
+    position: absolute;
+    top: 105px;
+    left: -55px;
+}

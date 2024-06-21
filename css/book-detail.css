@@ -1,0 +1,161 @@
+.gift-card {
+    position: relative;
+    padding: 35px;
+    color: #585858;
+}
+
+.price-option input[type="checkbox"] {
+    display: none;
+}
+
+.price-option {
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.amount p {
+    font-family: Helvetica;
+    font-size: 18.25px;
+    font-weight: 400;
+    line-height: 20.99px;
+    text-align: left;
+    color: #7F91AD;
+}
+
+.amount a{
+    font-family: Helvetica;
+    font-size: 18.25px;
+    font-weight: 400;
+    line-height: 20.99px;
+    text-align: left;
+    color: #7F91AD;
+    text-decoration: none;
+}
+
+.price-option label {
+    color: #585858;
+    width: 72px;
+    padding: 15px 0;
+    font-family: Helvetica;
+    font-size: 19.21px;
+    font-weight: 400;
+    line-height: 22.09px;
+    text-align: center;
+    border: 1px solid #585858;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.price-option input[type="checkbox"]:checked+label {
+    background-color: #D8E4EA;
+}
+
+.egift img {
+    width: 100%;
+    height: auto;
+}
+
+.gift-card-text {
+    position: relative;
+    padding-top: 10px;
+}
+
+.gift-rec img {
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    z-index: -1;
+}
+
+.gift-card-text p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: #585858;
+}
+
+.button-q {
+    max-width: 118px;
+    height: 54px;
+    border-radius: 4.8px;
+    background-color: #FFFFFF;
+    border: 0.96px solid #585858
+}
+
+.quantity {
+    padding: 10px 0;
+}
+
+.total-rec {
+    padding: 20px 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 21.85px;
+    text-align: left;
+
+}
+
+.download .btn {
+    margin: 10px 0;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    color: #585858;
+    background-color: #FFECBC;
+    padding: 20px 0;
+}
+
+.download .btn:hover {
+    color: #FFFFFF;
+    background-color: #f19e89;
+}
+
+
+
+.drink-cloud img {
+    position: absolute;
+    bottom: -440px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+}
+
+.modal-custom {
+    width: 950px;
+    min-height: 500px;
+    max-width: 100%;
+    border-radius: 43.78px;
+    overflow: hidden;
+    background-color: #FFFEF9;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal-content {
+    border: none;
+}
+
+.box img{
+    height: 300px;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.book-now button{
+    margin-bottom: 20px;
+}

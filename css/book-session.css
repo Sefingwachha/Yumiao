@@ -1,0 +1,155 @@
+body {
+    background-color: #FFFEF9;
+}
+
+
+.session {
+    color: #585858;
+    padding-top: 40px;
+}
+
+
+.session h4 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    color: #D3B89A;
+    padding-bottom: 45px;
+}
+
+.session p {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    text-align: left;
+    color: #585858;
+}
+
+.session h2 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 49.4px;
+    text-align: left;
+    color: #585858;
+    margin-right: -125px;
+    z-index: 100;
+}
+
+.session-rectangle {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.session-rectangle img {
+    max-width: 436px;
+    height: auto;
+}
+
+.book-session-group{
+    color: #585858;
+    padding-bottom: 50px;
+}
+
+.session-cat {
+    position: absolute;
+    top: 50%;
+    right: -30%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.session-cat img {
+    display: block;
+    max-width: 184px;
+    height: auto;
+}
+
+.box-group {
+    padding: 25px 55px;
+}
+
+.session-background {
+    position: relative;
+}
+
+.session-background img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    z-index: -1;
+}
+
+.box {
+    max-width: 385px;
+    height: auto;
+    border-radius: 44px;
+    background-color: #fffef9;
+    padding: 18px;
+    box-shadow: 3.5px 3.5px 17.51px 0px #0000001A;
+}
+
+.box img {
+    width: 384px;
+    height: 329px;
+    border-radius: 28px;
+}
+
+.box h4 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.box p {
+    font-family: Helvetica;
+    font-size: 19.27px;
+    font-weight: 400;
+    line-height: 22.15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.box h5 {
+    font-family: Helvetica Neue LT Pro;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.book-now button {
+    background: #FFECBC;
+    padding: 15px 40px;
+    color: #585858;
+    margin-bottom: 40px;
+}
+
+.book-now button:hover {
+    background-color: #f8dc96;
+}
+
+
+.only-book p{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.1px;
+    text-align: center;
+
+}
+
+.footer {
+    margin-top: 0px;
+}
